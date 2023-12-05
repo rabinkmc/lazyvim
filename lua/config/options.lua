@@ -8,6 +8,7 @@ set.laststatus = 0
 set.relativenumber = false
 set.number = false
 set.hlsearch = false
+set.undofile = true
 vim.opt.undodir = vim.fn.expand("~/.undodir")
 
 set.completeopt = { "menu", "menuone" }
